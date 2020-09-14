@@ -42,7 +42,7 @@
           },
           axisY:{
             suffix: " Betas",
-            includeZero: true
+            includeZero: false
           }, 
           toolTip: {
             shared: true
