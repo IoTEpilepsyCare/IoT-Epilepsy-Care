@@ -18,7 +18,7 @@
         $dataPoints2 = array();
         $updateInterval = 2000; //in millisecond
         $initialNumberOfDataPoints = 100;
-        $x = time() * 200 - $updateInterval * $initialNumberOfDataPoints*2;
+        $x = time() * 1000 - $updateInterval * $initialNumberOfDataPoints*2;
 
 
 ?>
@@ -42,7 +42,7 @@
           },
           axisY:{
             suffix: " Betas",
-            includeZero: false
+            includeZero: true
           }, 
           toolTip: {
             shared: true
