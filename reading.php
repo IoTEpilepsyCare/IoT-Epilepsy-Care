@@ -1,5 +1,27 @@
 
-      
+      <?php
+
+        $host="localhost"; // Host name *??what will be my host??*   
+        $username="u824583950_epilepsycare"; // Mysql username  
+        $password="123456"; // Mysql password  
+        $db_name="u824583950_epilepsycare"; // Database name  
+        $conn= mysqli_connect($host,$username,$password,$db_name);
+        if(!$conn)
+        die("connection failed".mysqli_error());
+
+
+          
+        header("Refresh:15; url=http://epilepsycare.ahmadklaib.com/Login_v18/epilepsy_care2/kiaalap-master/index.php");
+
+
+        $dataPoints1 = array();
+        $dataPoints2 = array();
+        $updateInterval = 2000; //in millisecond
+        $initialNumberOfDataPoints = 100;
+        $x = time() * 1000 - $updateInterval * $initialNumberOfDataPoints*2;
+
+
+?>
                     <script>
         window.onload = function() {
          
