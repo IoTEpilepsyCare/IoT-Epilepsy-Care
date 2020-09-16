@@ -1,0 +1,3 @@
+<h2>Donation so far <br><span>$</span><strong class="number" data-number="380000">0</strong></h2>
+    					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+    					<p><a href="#" class="btn btn-black py-3 px-4">Donate now</a></p>
